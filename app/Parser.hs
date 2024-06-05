@@ -4,7 +4,7 @@ import Text.ParserCombinators.Parsec
 import qualified Text.ParserCombinators.Parsec.Expr as Ex
 import Text.ParserCombinators.Parsec.Language (emptyDef)
 import qualified Text.ParserCombinators.Parsec.Token as Tok
-import DadosBase (Formula(..))
+import Models (Formula(..))
 
 lexer = Tok.makeTokenParser emptyDef
 parens = Tok.parens lexer

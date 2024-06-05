@@ -3,7 +3,7 @@ module Models where
 import Data.Set (Set)
 import Data.Tree (Tree)
 
-data Formula = Atomo !Chargit 
+data Formula = Atomo !Char
              | Nao !Formula
              | E !Formula !Formula
              | Ou !Formula !Formula
