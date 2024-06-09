@@ -10,11 +10,11 @@
 ### 2. Como utilizar?
 #### 2.1 O input deve ser feito seguindo a seguinte lista de representações:
 
-Implicação: ->
-Equivalência: <->
-Negação: ~
-E: ^
-Ou: v
+- Implicação: ->
+- Equivalência: <->
+- Negação: ~
+- E: ^
+- Ou: v
 
 #### 2.2 Lembrar de usar o espaçamento quando for utilizar o OU. Pois o símbolo v (letra V) será confundido com um átomo ( p, q, r, etc)
 Exemplo:
