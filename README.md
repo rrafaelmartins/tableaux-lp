@@ -13,8 +13,8 @@
 - Implicação: ->
 - Equivalência: <->
 - Negação: ~
-- E: ^
-- Ou: v
+- Conjunção (e): ^
+- Disjunção (Ou): v
 
 #### 2.2 Lembrar de usar o espaçamento quando for utilizar o OU. Pois o símbolo v (letra V) será confundido com um átomo ( p, q, r, etc)
 Exemplo:
