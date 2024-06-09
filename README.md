@@ -17,7 +17,7 @@
 
 #### 1.3 - Lembrar de usar o espaçamento quando for utilizar a Disjunção (ou). Pois o símbolo v (letra V) será confundido com um átomo (p, q, r, etc)
 Exemplo:
-a v b: Funciona
-avb: Não Funciona
+- a v b: Funciona
+- avb: Não Funciona
 
 #### 1.4 - No diretório principal, utilizar o comando `cabal run`.
