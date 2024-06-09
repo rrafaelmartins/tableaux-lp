@@ -1,6 +1,6 @@
-## Trabalho de Linguagens de Programação
-### Professor: Bruno Lopes Vieira
-### Alunos: Mateus Ferreira Machado e Rafael Aguiar Martins
+## Trabalho de Linguagens de Programação: Tableaux para a Lógica Clássica Proposicional.
+### Professor: Bruno Lopes Vieira.
+### Alunos: Mateus Ferreira Machado e Rafael Aguiar Martins.
 
 ### 1. Como executar?
 #### 1.1 - No VSCode, baixar a extensão "Haskell"
