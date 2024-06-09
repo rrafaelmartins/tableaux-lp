@@ -1,3 +1,4 @@
+{-# OPTIONS_GHC -Wno-missing-signatures #-}
 module Parser (parseFormula) where
 
 import Text.ParserCombinators.Parsec
