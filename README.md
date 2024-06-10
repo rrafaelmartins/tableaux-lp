@@ -47,5 +47,5 @@ Provando por refutação:
  Logo, a fórmula ((a ^ b) v (b -> a)) não é uma tautologia!
 ```
 #### Quando o ramo final está sinalizado com `{0}`, significa que o ramo está `aberto` (não houve contradição).
-#### Quando o ramo final está sinalizado com `{x}`, significa que o ramo está `fechado` (não houve contradição).
+#### Quando o ramo final está sinalizado com `{x}`, significa que o ramo está `fechado` (houve contradição).
 
