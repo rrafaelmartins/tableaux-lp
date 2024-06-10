@@ -33,15 +33,15 @@ Supondo que a fórmula é falsa:
 Provando por refutação:       
 (~((a ^ b) v (b -> a)))       
 |
-- (~(a ^ b)), (~(b -> a))    
+`- (~(a ^ b)), (~(b -> a))    
    |
    +- (~a), (~(b -> a))       
    |  |
-   |  - `b, (~a) {0}`
+   |  `- b, (~a) {0}
    |
-   - (~b), (~(b -> a))       
+   `- (~b), (~(b -> a))       
       |
-      - `b, (~a), (~b) {x}`
+      `- b, (~a), (~b) {x}
 
 
  Logo, a fórmula ((a ^ b) v (b -> a)) não é uma tautologia!
