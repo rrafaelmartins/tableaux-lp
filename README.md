@@ -22,8 +22,10 @@ Exemplo:
 
 #### 1.4 - No diretório principal, utilizar o comando `cabal run`.
 
+
+
 ### Exemplo de uso:
-Insira a fórmula:
+```Insira a fórmula:
 (a ^ b) v (b -> a)
 
 Supondo que a fórmula é falsa:
