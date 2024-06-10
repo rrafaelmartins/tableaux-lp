@@ -21,3 +21,29 @@ Exemplo:
 - avb: Não Funciona
 
 #### 1.4 - No diretório principal, utilizar o comando `cabal run`.
+
+### Exemplo de uso:
+Insira a fórmula:
+(a ^ b) v (b -> a)
+
+Supondo que a fórmula é falsa:
+~((a ^ b) v (b -> a))
+
+Provando por refutação:       
+(~((a ^ b) v (b -> a)))       
+|
+- (~(a ^ b)), (~(b -> a))    
+   |
+   +- (~a), (~(b -> a))       
+   |  |
+   |  - `b, (~a) {0}`
+   |
+   - (~b), (~(b -> a))       
+      |
+      - `b, (~a), (~b) {x}`
+
+
+ Logo, a fórmula ((a ^ b) v (b -> a)) não é uma tautologia!
+
+#### Quando o ramo final está sinalizado com `{0}`, significa que o ramo está `aberto` (não houve contradição).
+#### Quando o ramo final está sinalizado com `{x}`, significa que o ramo está `fechado` (não houve contradição).
