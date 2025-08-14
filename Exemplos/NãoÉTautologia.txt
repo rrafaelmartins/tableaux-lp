@@ -1,0 +1,5 @@
+Exemplo 1:
+b -> (a ^ (b v a))
+
+Exemplo 2:
+(a ^ b) v (b -> a)
