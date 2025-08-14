@@ -74,16 +74,16 @@ cabal run
 
 ### Formato da Entrada
 
-[cite_start]O input da fórmula lógica deve seguir as seguintes representações: [cite: 1]
+O input da fórmula lógica deve seguir as seguintes representações:
 
-* [cite_start]Implicação: `->` [cite: 1]
-* [cite_start]Equivalência: `<->` [cite: 1]
-* [cite_start]Negação: `~` [cite: 1]
-* [cite_start]Conjunção (e): `^` [cite: 1]
-* [cite_start]Disjunção (ou): `v` [cite: 1]
+- Implicação: ->
+- Equivalência: <->
+- Negação: ~
+- Conjunção (e): ^
+- Disjunção (ou): v
 
 ### ⚠️ Atenção ao Espaçamento no `v`
-[cite_start]É fundamental usar espaços ao redor do operador de **Disjunção (`v`)**, pois o símbolo `v` (a letra "v") pode ser confundido com um átomo (como `p`, `q`, `r`, etc). [cite: 1]
+É fundamental usar espaços ao redor do operador de **Disjunção (`v`)**, pois o símbolo `v` (a letra "v") pode ser confundido com um átomo (como `p`, `q`, `r`, etc).
 
 ✅ **Correto**:
 ```txt
@@ -112,11 +112,16 @@ Negando a fórmula:
 Saída (exemplo):
 ```
 (~((a ^ b) v (b -> a)))
-
 |
-- (~(a ^ b)), (~(b -> a))     | +- (~a), (~(b -> a))        |  | |  - b, (~a) {0}
-|
-- (~b), (~(b -> a))           | - b, (~a), (~b) {x}
+`- (~(a ^ b)), (~(b -> a))
+   |
+   +- (~a), (~(b -> a))
+   |  |
+   |  `- b, (~a) {0}
+   |
+   `- (~b), (~(b -> a))
+      |
+      `- b, (~a), (~b) {x}
 ```
 
 Conclusão:
